@@ -1,0 +1,363 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        height: auto;
+    }
+
+    .container .navbar .logo img {
+        max-height: 30px;
+        width: auto;
+    }
+
+    .container .navbar .links {
+        display: none;
+    }
+
+    .container .navbar .icons {
+        display: none;
+    }
+
+    .container .navbar .menu {
+        display: block;
+        font-size: 1rem;
+    }
+
+    .container .navbar .container1 {
+        gap: 1rem;
+        padding-top: 1rem;
+    }
+
+    .container1 .btns button {
+        padding: 0.8rem 7vw;
+        font-size: 1rem;
+    }
+
+    main .container6 .truck-logo img {
+        width: 40%;
+        height: auto;
+    }
+
+    footer .footer {
+        padding: 1.5rem;
+        height: auto;
+    }
+
+    footer .footer .footer_cont {
+        padding: 10px 200px;
+        font-size: 0.9rem;
+    }
+
+    footer .footer .footer_line {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    main .container11 header h1 {
+        font-size: 20px;
+    }
+
+    main .container11 .btns button {
+        padding: 10px 30px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .container .navbar .logo img {
+        max-height: 25px;
+    }
+
+    .container .navbar .menu {
+        font-size: 0.9rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .container1 {
+        padding: 0px;
+    }
+
+    .container1 header h1 {
+        font-size: 5vw;
+    }
+
+    .container1 .btns {
+        flex-direction: column;
+        gap: 0.7rem;
+    }
+
+    .container1 .btns button {
+        padding: 0.7rem 8vw;
+        font-size: 0.9rem;
+    }
+
+    main .container6 .truck-logo img {
+        height: auto;
+        width: 40%;
+    }
+
+    main .container8 header h2 {
+        font-size: 27px;
+    }
+
+    main .container11 header h1 {
+        font-size: 15px;
+    }
+
+    main .container11 .btns button {
+        padding: 4px 12px;
+        font-size: 12px;
+    }
+
+    footer .footer {
+        height: auto;
+    }
+
+    footer .footer .footer_cont {
+        padding: 10px 50px;
+    }
+
+    footer .footer .footer_line {
+        gap: 1rem;
+        flex-wrap: wrap;
+    }
+}
+
+
+@media screen and (max-width: 576px) {
+    .container .navbar .logo img {
+        max-height: 20px;
+    }
+
+    .container .navbar .menu {
+        display: block;
+        padding: 0.3rem 0.8rem;
+        font-size: 0.8rem;
+    }
+
+    .container1 header h1 {
+        font-size: 6vw;
+    }
+
+    .container1 .btns {
+        gap: 0.7rem;
+    }
+
+    .container1 .btns button {
+        padding: 0.7rem 8vw;
+        font-size: 0.8rem;
+    }
+
+    main .container7 header h1 {
+        font-size: 35px;
+    }
+
+    main .container7 header a {
+        font-size: 20px;
+    }
+
+    main .container2 .btns,
+    main .container3 .btns,
+    main .container4 .btns,
+    main .container5 .btns,
+    main .container6 .btns,
+    main .container7 .btns,
+    main .container8 .btns,
+    main .container9 .btns,
+    main .container10 .btns {
+        gap: 0.5rem;
+    }
+
+    main .container2 .btns button,
+    main .container3 .btns button,
+    main .container4 .btns button,
+    main .container5 .btns button,
+    main .container6 .btns button,
+    main .container7 .btns button,
+    main .container8 .btns button,
+    main .container9 .btns button,
+    main .container10 .btns button {
+        padding: 0.8rem 7vw;
+        font-size: 0.8rem;
+    }
+
+    main .container6 .truck-logo img {
+        width: 40%;
+        height: auto;
+    }
+
+    main .container8 header h2 {
+        font-size: 17px;
+    }
+
+    footer .footer {
+        height: auto;
+    }
+
+    footer .footer .footer_cont {
+        padding: 10px 50px;
+    }
+
+    footer .footer .footer_line {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .footer .footer_line a {
+        font-size: 13px;
+    }
+}
+
+
+@media screen and (max-width: 380px) {
+    body .nav1 {
+        font-size: 13px;
+        text-align: left;
+    }
+
+    main .container2 header h1,
+    main .container3 header h1,
+    main .container4 header h1,
+    main .container5 header h1,
+    main .container7 header h1,
+    main .container8 header h1,
+    main .container9 header h1,
+    main .container10 header h1 {
+        font-size: 35px;
+    }
+
+    main .container2 header a,
+    main .container3 header a {
+        font-size: 20px;
+        text-underline-offset: 4px;
+    }
+
+    main .container2 header h2,
+    main .container3 header h2 {
+        font-size: 10px;
+    }
+
+    main .container4 header h2,
+    main .container5 header h2 {
+        font-size: 30px;
+    }
+
+    main .container4 header a,
+    main .container5 header a {
+        font-size: 11px;
+    }
+
+    main .container6 .truck-logo img {
+        width: 50%;
+        height: auto;
+    }
+
+    main .container7 header a {
+        font-size: 15px;
+    }
+
+    main .container8 header h2 {
+        font-size: 15px;
+    }
+
+    main .container11 header h1 {
+        font-size: 12px;
+    }
+
+    main .container11 .btns button {
+        padding: 4px 12px;
+        font-size: 10px;
+    }
+}
+
+
+@media screen and (max-width: 360px) {
+    body .nav1 {
+        font-size: 10px;
+        text-align: left;
+    }
+
+    .container .navbar {
+        padding: 0rem 1rem;
+    }
+
+    .container header h1 {
+        padding: 1rem;
+    }
+
+    .container .navbar .logo img {
+        max-height: 12px;
+    }
+
+    .container .navbar .menu {
+        font-size: 0.7rem;
+        padding: 0.4rem 0.8rem;
+    }
+
+    .container1 {
+        gap: 0px;
+    }
+
+    .container1 header h1 {
+        font-size: 8vw;
+    }
+
+    .container1 .btns button {
+        padding: 0.5rem 6vw;
+        font-size: 0.7rem;
+    }
+
+    main .container2 .btns,
+    main .container3 .btns,
+    main .container4 .btns,
+    main .container5 .btns,
+    main .container6 .btns,
+    main .container7 .btns,
+    main .container8 .btns,
+    main .container9 .btns,
+    main .container10 .btns {
+        flex-direction: column;
+    }
+
+    main .container6 .truck-logo img {
+        width: 50%;
+        height: auto;
+    }
+
+    main .container8 header h2 {
+        font-size: 10px;
+    }
+
+    main .container11 header {
+        position: relative;
+    }
+
+    main .container11 header h1 {
+        margin-bottom: 45px;
+        font-size: 20px;
+    }
+
+    main .container11 .btns {
+        display: flex;
+        justify-content: center;
+    }
+
+    main .container11 .btns button {
+        padding: 5px 50px;
+        font-size: 10px;
+    }
+
+    footer .footer {
+        height: auto;
+    }
+
+    footer .footer .footer_cont {
+        padding: 5px 5px;
+    }
+
+    footer .footer .footer_line a {
+        font-size: 14px;
+    }
+}

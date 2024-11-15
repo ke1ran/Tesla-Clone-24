@@ -1,0 +1,552 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/*Sticky navbar*/
+body .nav1 { 
+    position: sticky;
+    top: 0;
+    background-color: white;
+    color: black;
+    padding: 1rem;
+    text-align: center;
+    font-size: 14px;
+    z-index: 10;
+    height: 100%;
+    overflow: hidden;
+}
+
+body .nav1 a {
+    cursor: pointer;
+    color: #393C41;
+    font-weight: 400;
+    font-size: 14px;
+    text-decoration: none;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 5px;
+}
+
+body .nav1 a:hover {
+    transition: 0.8s ease;
+    color: #171A20;
+    text-decoration-thickness: 1.9px;
+}
+
+.container {
+    min-height: 700px;
+    max-height: 90vh;
+    width: 100%;
+    background-image: url(Assets/img1.avif);
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+}
+
+.container .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+    padding: 0px 30px;
+}
+
+/*Tesla logo*/
+.container .navbar .logo img {
+    height: 15px;
+    cursor: pointer;
+}
+
+/*Navbar links*/
+.container .navbar .links {
+    display: flex;
+    align-items: center;
+    gap: 1vw;
+}
+
+.container .navbar .links a {
+    padding: 7px 5px;
+    border-radius: 10%;
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    letter-spacing: 0.4px;
+    font-size: 13px;
+}
+
+.container .navbar .links a:hover{
+    color: rgb(23, 26, 32);
+    background-color: #0a0a0a0d;
+}
+
+/*Navbar icons*/
+.container .navbar .icons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container .navbar .icons a img {
+    height: 25px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.container .navbar .icons a img:hover {
+    background-color: #0a0a0a0d;
+}
+
+.container .navbar .menu {
+    font-size: 14px;
+    padding: 8px 20px;
+    background-color: #0a0a0a0d;
+    border-radius: 5px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+    display: none;
+}
+
+/*Content of first image*/
+.container1 {
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    flex-direction: column;
+    padding-top: 45px;
+}
+
+/*Styles for h1 of image containers*/
+.container1 header h1, 
+main .container2 header h1,
+main .container3 header h1,
+main .container4 header h1,
+main .container5 header h1,
+main .container7 header h1,
+main .container8 header h1,
+main .container9 header h1,
+main .container10 header h1 {
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 56px;
+    font-weight: 600;
+    color: white;
+}
+
+.container1 .btns{
+    display: flex;
+    align-items: center;
+    gap: 22px;
+}
+
+/*Styles for buttons of image containers*/
+.container1 .btns button, 
+main .container2 .btns button,
+main .container3 .btns button,
+main .container4 .btns button,
+main .container5 .btns button,
+main .container7 .btns button,
+main .container8 .btns button,
+main .container9 .btns button,
+main .container10 .btns button {
+    padding: 12px 85px;
+    border: none;
+    border-radius: 4px;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: white;
+    color: #3f3f3f;
+    transition: all 0.3s ease;
+}
+
+.container1 .btns button:hover {
+    background-color: #faf8f8;
+}
+
+/*Container of image 2*/
+main .container2 {
+    background-image: url(Assets/img2.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-height: 700px; 
+    max-height: 90vh; 
+    padding: 2rem; 
+}
+
+/*more h1 styles*/
+main .container2 header h1, 
+main .container3 header h1,
+main .container4 header h1,
+main .container5 header h1,
+main .container7 header h1,
+main .container8 header h1,
+main .container9 header h1,
+main .container10 header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+main .container2 header a, 
+main .container3 header a { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    font-size: 34px;
+    font-weight: 600;
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    text-decoration: underline;
+    text-decoration-thickness: 0.5px;
+    text-underline-offset: 8px;
+}
+
+/*h2 styles*/
+main .container2 header h2, 
+main .container3 header h2,
+main .container4 header h2,
+main .container5 header h2,
+main .container8 header h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: 700;
+    font-size: 17px;
+    margin-top: 0.3%;
+}
+
+/*more buttons styles*/
+main .container2 .btns, 
+main .container3 .btns,
+main .container4 .btns,
+main .container5 .btns,
+main .container6 .btns,
+main .container7 .btns,
+main .container8 .btns,
+main .container9 .btns,
+main .container10 .btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: auto;
+    margin-bottom: 20px;
+    gap: 14px;
+}
+
+main .container2 .btns button:nth-child(1),
+main .container3 .btns button:nth-child(1),
+main .container4 .btns button:nth-child(1),
+main .container5 .btns button:nth-child(1),
+main .container7 .btns button:nth-child(1),
+main .container8 .btns button:nth-child(1),
+main .container9 .btns button:nth-child(1),
+main .container10 .btns button:nth-child(1) {
+    background-color: #3e6ae1;
+    color: white;
+}
+
+/*Container of image 3*/
+main .container3 {
+    background-image: url(Assets/img3.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 700px; 
+    max-height: 90vh; 
+    padding: 2rem; 
+}
+
+/*Container of image 4*/
+main .container4 {
+    background-image: url(Assets/img4.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+    min-height: 700px; 
+    max-height: 90vh; 
+    padding: 2rem; 
+}    
+
+main .container4 header h2,
+main .container5 header h2,
+main .container8 header h2 {
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 34px;
+    font-weight: 600;
+}
+
+main .container4 header a,
+main .container5 header a,
+main .container7 header a { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: white;
+    padding: 0.1%;
+    font-size: 17px;
+    font-weight: 600;
+    line-height: 20px;
+    text-decoration: underline;
+    text-decoration-thickness: 1.5px;
+    text-underline-offset: 5px;
+}
+
+/*Container of image 5*/
+main .container5 {
+    background-image: url(Assets/img5.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-height: 700px; 
+    max-height: 90vh;
+    padding: 2rem; 
+}
+
+main .container4 .btns button {
+    margin-top: -1%;
+}
+
+/*Container of image 6*/
+main .container6 {
+    background-image: url(Assets/img6.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    text-align: center;
+    min-height: 700px; 
+    max-height: 90vh; 
+    padding: 2rem; 
+}
+
+main .container6 .truck-logo img{
+    height: auto;
+    width: 20%;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+main .container6 .btns button {
+    padding: 12px 85px;
+    border: none;
+    font-weight: 700;
+    cursor: pointer;
+    background-color: rgb(36, 35, 35);
+    color: #828282;
+    transition: all 0.3s ease;
+    margin-top: 1.3%;
+}
+
+main .container6 .btns button:nth-child(1) {
+    border-top: 3px solid #8e8e8e;
+    border-top-width: 3px;
+    border-spacing: 1cap;
+}
+
+/*Container of image 7*/
+main .container7 {
+    background-image: url(Assets/img7.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-height: 700px; 
+    max-height: 90vh; 
+    padding: 2rem; 
+}
+
+main .container7 header a {
+    font-family: "Universal Sans Display", -apple-system, Arial, sans-serif;
+    font-size: 34px;
+    line-height: 44px;
+    font-weight: 600;
+    text-decoration-thickness: 1px;
+    text-underline-offset: 8px;
+}
+
+main .container7 header a:hover {
+    text-decoration-thickness: 2px;
+}
+
+main .container7 .btns button,
+main .container8 .btns button {
+    margin-top: 2%;
+}
+
+/*Container of image 8*/
+main .container8 {
+    background-image: url(Assets/img8.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    min-height: 700px;
+    max-height: 90vh; 
+    padding: 2rem; 
+}
+
+/*Container of image 9*/
+main .container9 {
+    background-image: url(Assets/img9.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    min-height: 700px;
+    max-height: 90vh; 
+    padding: 2rem;
+}
+
+main .container9 .btns button,
+main .container10 .btns button {
+    margin-top: 4.5%;
+}
+
+/*Container of image 10*/
+main .container10 {
+    background-image: url(Assets/img10.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    min-height: 700px;
+    max-height: 90vh;
+    padding: 2rem;
+}
+
+/*Container11 which contains a video*/
+main .container11 {
+    position: relative;
+    display: inline-block; 
+}
+
+/*styles for the video*/
+main .container11 video {
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-size: cover ;
+    object-fit: cover;
+    display: block;
+}
+
+main .container11 header {
+    margin-top: -19%;
+    margin-left: 1.4%;
+    position: absolute;
+    padding: 1%;
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+main .container11 .btns button {
+    margin-left: 2.7%;
+    margin-top: -14%;
+    position: absolute;
+    cursor: pointer;
+    padding: 12px 70px;
+    border-radius: 2px;
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    background-color: white;
+    color: rgb(67, 66, 66);
+}
+
+/*footer of the webpage*/
+footer .footer {
+    height: auto;
+    overflow: visible;
+}
+
+/*content of the footer*/
+footer .footer .footer_cont{
+    padding: 50px 475px;
+    text-align: center;
+    color: rgb(92, 94, 98);
+    font-weight: 400;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    font-style: normal;
+    font-size: 12px;
+    font-variant-caps: normal;
+    font-variant-east-asian: normal;
+    font-variant-ligatures: normal;
+    font-variant-numeric: normal;
+    line-height: 18px;
+}
+
+footer .footer .footer_cont a {
+    color: rgb(50, 50, 52);
+    text-underline-offset: 20%;
+    text-decoration-thickness: 1.1px;
+}
+
+footer .footer .footer_cont a:hover {
+    color: rgb(23, 26, 32);
+    text-decoration-thickness: 20%;
+    transition: 0.8s ease;
+}
+
+/*links of footer*/
+footer .footer .footer_line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 18px;
+    padding-bottom: 20px;    
+}
+
+/*styles for the superscript of image-containers and footer-content*/
+footer .footer .footer_cont sup,
+main .container2 header h2 sup,
+main .container3 header h2 sup,
+main .container4 header h2 sup,
+main .container5 header h2 sup {
+    font-size: 8px;
+}
+
+/*links for footer*/
+footer .footer .footer_line a{
+    text-decoration: none;
+    font-size: 12px;
+    cursor: pointer;
+    font-family: "Universal Sans Text", -apple-system, Arial, sans-serif;
+    color: rgb(57, 60, 65);
+    font-weight: 500;
+    line-height: 20px;
+}
+
+
